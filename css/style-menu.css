@@ -1,0 +1,63 @@
+.menu {
+    color: #b3b3b3;
+    display: flex;
+    flex-direction: column;
+}
+.menu .logo {
+    height: 100px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu .logo a {
+    color: #fff;
+}
+.menu .logo h1 {
+    margin-left: 5px;
+    display: inline-block;
+}
+.menu .menu-link {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.menu .menu-link > div {
+    margin-left: 20px;
+}
+.menu .menu-link a {
+    display: block;
+    color: #b4b4b4;
+    font-weight: bold;
+}
+.menu .menu-link i {
+    margin-right: 20px;
+}
+.menu .menu-link > div ul li{
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+.menu .menu-link > div:nth-child(1) .active {
+    background-color: #282828;
+    border-radius: 5px;
+}
+.menu .menu-link > div:nth-child(2) {
+    margin-top: 30px;
+}
+.menu .menu-link > div:nth-child(2) h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    margin-bottom: 15px
+}
+
+.menu .menu-link > div:nth-child(3) {
+    height: 50px;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+}
+.menu .menu-link > div:nth-child(3) .app-link {
+    width: 100%;
+}
